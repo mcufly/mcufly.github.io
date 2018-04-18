@@ -1,24 +1,25 @@
 # ----------- CONFIGURABLE START -----------
-title:            "McuFly|Mcu、DSP、FPGA|OS|"
+title:            "McuFly ~ Mcu、DSP、FPGA、OS."
 description:      "嵌入式开发爱好者|欢迎来到 McuFly..."
-url:              https://mcufly.github.io # 域名
+url:              https://mcufly.github.io 
+# 域名 http://127.0.0.1:4000/
 signoff:          "McuFly" # Your name
 facebook_appid:   #McuFly
 google_analytics: UA-101222464-1
 share:            true 
 # 分页
-paginate: 15
-paginate_path: "liberxuepage:num"
+paginate: 12
+paginate_path: "ifly:num"
 gems: [jekyll-paginate]
 links:
   - name:         首页
     url:          /
     external:     false
-  - name:         书籍
-    url:          /book
+  - name:         MCU
+    url:          /mcu
     external:     false
-  - name:         旅游
-    url:          /road
+  - name:         FPGA
+    url:          /fpga
     external:     false
   - name:         归档
     url:          /archives
